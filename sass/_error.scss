@@ -1,0 +1,23 @@
+.error {
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  // width: 80%;
+
+  svg {
+    width: 2rem;
+    color: $color-error;
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: $color-error;
+  }
+}

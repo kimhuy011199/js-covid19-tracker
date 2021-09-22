@@ -1,0 +1,41 @@
+.global {
+  padding: 1.7rem 2.2rem;
+  border: $border;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  position: relative;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    width: 1.8rem;
+    margin-right: 0.6rem;
+    color: $color-secondary;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__statistic-container {
+    margin-top: 2.2rem;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5rem;
+  }
+
+  &__heading {
+    color: $color-grey-1;
+  }
+
+  &__number {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: $color-grey-1;
+  }
+}

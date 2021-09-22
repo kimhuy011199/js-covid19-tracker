@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: $color-ternary;
+    transition: all 0.3s;
+  }
+
+  a:hover,
+  a:active {
+    color: $color-primary;
+  }
+
+  &__img {
+    width: 22rem;
+  }
+}

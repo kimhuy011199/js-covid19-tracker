@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap");
+
+// COLOR VARIABLES
+$color-primary: #40e7b1;
+$color-secondary: #29cfc0;
+$color-ternary: #25bfb1;
+
+$color-error: #f44336;
+
+$color-grey-1: #111827;
+$color-grey-2: #afb1b6;
+
+$color-white: #fff;
+
+$border: 1px solid #eee;
+
+// FONT VARIABLES
+$font-primary: "Lexend", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 16px
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey-2;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+::selection {
+  background-color: $color-secondary;
+  color: $color-white;
+}
